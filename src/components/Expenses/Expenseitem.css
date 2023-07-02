@@ -1,0 +1,51 @@
+.expense-item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:#3e5964;
+    margin: 1rem 0;  
+     border-radius: 12px;
+  box-shadow: 0 1px 8px rgba(0,0,0,0.4);
+
+  
+}
+
+.expense-item_description {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex: 1;
+    color: white;
+    font-size: 1rem;
+padding-left: 1.5rem;
+    
+}
+.expense-item_description h2{
+    flex: 1;
+}
+.expense-price{
+     color: white;
+     border: 1px solid white;
+     border-radius: 10px;
+     background-color:rgba(0,0,139,0.747);
+     padding: 9px 20px;
+     font-weight: bold;
+     font-size: 20px;
+     margin-right:2rem ;
+
+}
+.expense-price:hover{
+    background-color: black;
+    /* color: black; */
+}
+@media screen and (max-width:568px) {
+  
+    .expense-item_description{
+        font-size: 1rem;
+        padding-left: 1rem;
+    }
+    .expense-price{
+        margin-right: 1rem;
+        
+    }
+}

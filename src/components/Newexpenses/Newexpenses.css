@@ -1,0 +1,9 @@
+.newexpense{
+    background-color: #a084dcb4;
+    width: 50%;
+    max-width: 95%;
+    margin: 2rem auto;
+    border-radius: 12px;
+    padding: 1rem;
+    box-shadow: 0 1px 8px rgba(0,0,0,0.2);
+}
